@@ -24,12 +24,30 @@ body {
 
 .circles {
   list-style-type: none;
-  border: solid 2px black;
-  padding: 5px;
-  border-radius: 100%;
   display: inline-block;
 }
 
-ul {
+.circles a {
+  border: solid 3px grey;
+  padding: 5px;
+  border-radius: 100%;
+  display: inline-block;
 
+  transition: all 200ms linear;
+}
+
+ul {
+  margin-left: 40%;
+}
+
+.circles a:hover {
+  background-color: grey;
+}
+
+.argyle {
+  display: none;
+}
+
+.argyle:target {
+  display: block;
 }
