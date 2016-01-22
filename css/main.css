@@ -22,11 +22,14 @@ body {
   margin: 0;
 }
 
-li {
-  border-radius: solid;
-  border-radius: 1px;
+.circles {
+  list-style-type: none;
+  border: solid 2px black;
+  padding: 5px;
+  border-radius: 100%;
+  display: inline-block;
 }
 
 ul {
-  display: inline-block;
+
 }
